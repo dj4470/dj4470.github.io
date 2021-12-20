@@ -1,13 +1,154 @@
+ホーム
+投稿を編集
+テーマを変更
+公開状態を更新
+
+コンテンツへスキップ
+ルーツ横浜駅西口
+
+
+ROOTS横浜駅西口
+ROOTS BLOG
+このサイトについて
+お問い合わせ
+HTMLとJavaScriptを使って簡単なHPを作ってみよう！
+投稿者:ルーツプロゲート2021年11月30日カテゴリー:未分類編集HTMLとJavaScriptを使って簡単なHPを作ってみよう！
+HTMLとJavaScriptを使って簡単なHPを作成する方法を紹介します。
+この記事では、これまでの記事（①、②、③）の知識を活用して、GitHub上に簡単なコーディングを入力してHPを作成する方法を紹介します。
+
+今回は、VS Codeに書いたコーディングをGitHubに反映させるのではなく、GitHubの「index.html」に直接コーディングを書いていきます。
+
+この記事の目的は、凝ったデザインのHPを作成するのではなく、コーディング全体の構成や流れを把握することです。
+
+そのため、今回は「index.html」の中に、CSSの要素とJavaScriptの要素を組み込むコーディングの方法を紹介します。
+
+このようなコーディングを行うことで、エディタをHTML、CSS、JavaScriptに分ける必要がないため、非常に簡単にHPを作成することができます。
+
+0. 事前学習
+この記事で、紹介する方法は、これまで紹介した過去の記事の知識が必要になりますので、以下の3つの記事を事前に学習されることをお勧めします。
+
+HTML＆CSSの開発環境を用意しよう！
+Webページをインターネット上に公開しよう！
+自分のWebサイトにアニメーションをつけよう！
+1. コーディング全体の構成
+今回は、前回使用したGitHubの「index.html」のファイルに直接コーディングを入力していきます。
+
+
+今回はこの「index.html」にCSSの要素とJavaScriptの要素を含めて以下のようにコーディングしていきます。
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>ルーツ横浜駅西口</title>
-  </head>
-  <body>
-    <h1 class="title">ルーツ横浜駅西口へようこそ！</h1>
-    <script>
+<html lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <title>ルーツ横浜駅西口</title>
+ <link rel="stylesheet"href="style.css">
+ <style type="text/css"></style>
+</head>
+ 
+<body>
+ <div id="center">
+ </h1>
+ <P align="center"><br>
+ <font color=black size=5><br>
+ <font size=8>ルーツ横浜駅西口へようこそ</font><br>
+ <script>
     alert("Let's try!");
-      </script>
-  </body>
+ </script>
+ 
+ ■　前半知識の確認　■<br>
+ 
+ <br>
+ <a href="https://typing.twi1.me/game/70161" target="_blank">No.1　タイピングの確認をしてみましょう♪</a><br>
+ <font size="3" color=black>
+　※ここで、得点をメモしておいてください<br>
+　※文字が小さい場合は画面右上の：設定でズームを操作してみてください。</font><br>
+ <a href="https://www.nic.ad.jp/timeline/" target="_blank">No.2　インターネットの歴史について再確認しましょう</a><br>
+ <a href="https://www.soumu.go.jp/main_sosiki/joho_tsusin/security_previous/kiso/k01_inter.htm" target="_blank">No.3　インターネットの基礎知識を少し簡単に解説しています。総務省のWebです。</a><br>
+ 
+ <br>
+　いったん休憩しましょう&#127800<br>
+ <font size="3" color=black><br>
+　※肩を回すなどの体操をして頂くのも良いと思います。<br>
+　背伸びなどをして深呼吸も試してみてください。<br>
+　ルーツ横浜駅西口の利用ルールも確認して<br>みなさんで心地よく過ごしましょう＾＾<br>
+ <img src="https://raw.githubusercontent.com/rootsyokohamanishi/rootschibamihon/main/%E4%BD%BF%E7%94%A8%E3%83%AB%E3%83%BC%E3%83%AB_web.jpg"><br>
+ </font>
+ <br>
+ </div>
+</body>
 </html>
+上記のコーディングについてはタグ等は解説しませんが、構成を見てみましょう。
+
+今回のコーディングでは、実際のHTMLファイルに必要な、決められた型のみで構成しました。
+下記のように、<html>要素の中に、<head>要素と<body>要素の2つが必要です。<head>要素にはページに関する情報、<body>要素には実際に表示したい内容を書きます。
+
+
+上記の構成を守っていれば、簡単にHPをコーディングすることができます。
+
+2. CSSとJavaScriptの要素の組み込み
+また、前章で紹介したコーディングにはすでにCSSとJavaScriptの要素が組み込まれています。
+
+
+上記のように、「index.html」の中にCSSとJavaScriptの要素を組み込めば、エディタを分けることなく、簡単にコーディングできます。
+
+3. 完成物
+上記のコーデキングをし、ブラウザで開いてみると、以下のポップアップの後に実際のHPをみることができます。
+
+
+
+共有:
+Press ThisTwitterFacebook
+ボタンをカスタマイズする
+
+読み込み中…
+投稿者:ルーツプロゲート2021年11月30日カテゴリー:未分類編集HTMLとJavaScriptを使って簡単なHPを作ってみよう！
+投稿ナビゲーション
+過去の投稿過去の投稿:
+自分のWebサイトにアニメーションをつけよう！
+次の投稿次の投稿:
+食！デザイン！ゲーム！秋といえば？
+コメントを残す
+コメントを入力してください。
+ルーツ横浜駅西口, WordPress.com Blog.
+:)
